@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$@(i0=vp)lf@do4s65c$qhh0%dt6)^%&2!%)oebawbo!u7+%cg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [netdog.pythonanywhere.com]
+ALLOWED_HOSTS = ['netdog.pythonanywhere.com']
 
 
 # Application definition
@@ -125,4 +125,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-ALLOWED_HOSTS = ['netdog.pythonanywhere.com']
